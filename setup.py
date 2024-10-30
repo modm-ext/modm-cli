@@ -13,10 +13,10 @@ from setuptools import setup
 
 setup(
     name = "modm",
-    version = "0.1.2",
-    python_requires=">=3.5.0",
+    version = "0.1.3",
+    python_requires=">=3.9.0",
 
-    install_requires = ["lbuild", "lxml", "pyelftools"],
+    install_requires = ["lbuild", "lxml", "pyelftools", "telnetlib3"],
 
     # Metadata
     author = "Niklas Hauser",

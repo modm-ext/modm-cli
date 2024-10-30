@@ -10,5 +10,5 @@ pip3 install modm
 is equivalent to
 
 ```
-pip3 install lbuild lxml pyelftools
+pip3 install lbuild lxml pyelftools telnetlib3
 ```
