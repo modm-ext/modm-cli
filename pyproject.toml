@@ -1,0 +1,36 @@
+[build-system]
+requires = [ "setuptools>=41", "wheel", "setuptools-git-versioning<2", ]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "modm"
+version = "0.2.0"
+authors = [
+    {name = "Niklas Hauser", email = "niklas@salkinium.com"},
+]
+description = "modm command-line interface"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MPL-2.0"}
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development",
+    "Topic :: Software Development :: Embedded Systems",
+]
+dependencies = [
+    "lbuild>=1.21.8,<2",
+    "lxml>=5,<6",
+    "pyelftools>=0.31,<1",
+    "telnetlib3>=2,<3",
+]
+
+[project.urls]
+"GitHub" = "https://github.com/modm-ext/modm-cli"
+"Homepage" = "https://modm.io"
