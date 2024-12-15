@@ -4,13 +4,13 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "modm"
-version = "0.2.0"
+version = "0.2.1"
 authors = [
     {name = "Niklas Hauser", email = "niklas@salkinium.com"},
 ]
 description = "modm command-line interface"
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.8"
 license = {text = "MPL-2.0"}
 classifiers = [
     "Development Status :: 1 - Planning",
